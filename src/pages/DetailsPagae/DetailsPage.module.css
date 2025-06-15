@@ -1,0 +1,106 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 120px;
+  margin: 0 auto;
+  padding-top: 84px;
+  display: flex;
+  gap: 72px;
+  padding-bottom: 104px;
+}
+
+.imageContainer {
+  width: 640px;
+  height: 512px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.title {
+  padding-top: 20px;
+  margin-bottom: 8px;
+}
+
+.name {
+  text-wrap: nowrap;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.id {
+  font-weight: 500;
+  color: rgba(141, 146, 154, 1);
+  font-size: 16px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.location p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.location svg {
+  margin-right: 4px;
+}
+
+.mileage {
+  margin-left: 16px;
+}
+
+.price {
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(52, 112, 255, 1);
+  margin-bottom: 32px;
+}
+
+.desc {
+  margin-bottom: 68px;
+}
+
+.description h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.checked {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.checked:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.spec {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spec:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.list:not(:last-of-type) {
+  margin-bottom: 110px;
+}
