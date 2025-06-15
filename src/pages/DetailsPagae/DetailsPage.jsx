@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { fetchCarData } from "../../api/swagger-api";
-import { BookForm } from "../../components/BookForm/BookForm";
+import BookForm from "../../components/BookForm/BookForm";
 import css from "./DetailsPage.module.css";
 import Location from "../../svg/location.svg?react";
 import addSpaceFromEnd from "../../util/addSpaceFromEnd";
