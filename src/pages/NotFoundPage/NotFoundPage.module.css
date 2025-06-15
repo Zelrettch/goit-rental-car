@@ -1,0 +1,10 @@
+.header {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  font-size: 72px;
+}
+
+.not {
+  color: rgba(52, 112, 255, 1);
+}

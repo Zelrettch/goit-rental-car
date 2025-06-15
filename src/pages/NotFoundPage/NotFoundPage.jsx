@@ -1,7 +1,11 @@
+import css from "./NotFoundPage.module.css";
+
 export default function NotFoundPage() {
   return (
-    <div>
-      <h1>404 Not Found</h1>
+    <div className={css.container}>
+      <h1 className={css.header}>
+        404 <span className={css.not}>Not </span>Found
+      </h1>
     </div>
   );
 }

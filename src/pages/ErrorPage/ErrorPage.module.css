@@ -1,0 +1,11 @@
+.header {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  font-size: 72px;
+  color: #9d0208;
+}
+
+.span {
+  color: rgba(16, 24, 40, 1);
+}

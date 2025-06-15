@@ -5,18 +5,7 @@ import { toggleItem } from "../../redux/favourites/actions";
 import HeartEnabled from "../../svg/heart_active.svg?react";
 import HeartDisabled from "../../svg/heart_disabled.svg?react";
 import { selectFavourites } from "../../redux/favourites/selectors";
-
-function addSpaceFromEnd(str) {
-  return str
-    .split("")
-    .reverse()
-    .join("")
-    .replace(/.{3}/g, "$& ")
-    .split("")
-    .reverse()
-    .join("")
-    .trim();
-}
+import addSpaceFromEnd from "../../util/addSpaceFromEnd";
 
 export default function CarCard({ car }) {
   const city = car.address.split(",")[1]?.trim() || "Unknown City";

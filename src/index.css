@@ -7,9 +7,15 @@ body {
   color: rgba(16, 24, 40, 1);
   scrollbar-gutter: stable;
   font-weight: 500;
+  height: 100vh;
 }
+
+#root {
+  height: 100%;
+}
+
 html {
-  scrollbar-gutter: stable;
+  /* scrollbar-gutter: stable; */
 }
 
 h1,

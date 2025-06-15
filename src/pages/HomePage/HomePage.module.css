@@ -1,0 +1,48 @@
+.page {
+  background-image: url("../../images/bg_img.jpg");
+  height: 100%;
+
+  background-clip: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+
+.data {
+  padding-bottom: 60px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.toCatalog {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  padding: 12px 88px;
+  background-color: rgba(52, 112, 255, 1);
+  border-radius: 12px;
+  max-width: 276px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.toCatalog:hover {
+  background-color: rgba(11, 68, 205, 1);
+}

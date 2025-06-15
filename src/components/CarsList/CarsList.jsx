@@ -5,7 +5,6 @@ import css from "./CarsList.module.css";
 
 export default function CarsList() {
   const items = useSelector(selectItems);
-  console.log("CarsList items:", items);
   return (
     <ul className={css.list}>
       {items.map((item) => (
