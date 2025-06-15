@@ -39,11 +39,6 @@ export default function DetailsPage() {
     fetchData();
   }, []);
 
-  const handleBookSubmit = (formData) => {
-    // Handle form submission here
-    console.log("Form submitted:", formData);
-  };
-
   return (
     data && (
       <div className={css.container}>
@@ -52,7 +47,7 @@ export default function DetailsPage() {
             <img className={css.image} src={data.img} alt={data.make} />
           </div>
           <div className={css.right}>
-            <BookForm onSubmit={handleBookSubmit} />
+            <BookForm />
           </div>
         </div>
 
