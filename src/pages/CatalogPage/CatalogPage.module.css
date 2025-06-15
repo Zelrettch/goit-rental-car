@@ -1,0 +1,14 @@
+.loadMore {
+  margin: 80px auto 0;
+  padding: 12px 38px;
+  border: 1px solid rgba(52, 112, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.page {
+  margin-bottom: 80px;
+}

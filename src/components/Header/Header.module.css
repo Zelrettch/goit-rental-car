@@ -1,0 +1,27 @@
+.header {
+  background-color: rgba(242, 244, 247, 1);
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: block;
+  padding: 24px 0;
+}
+
+.nav {
+  display: flex;
+  gap: 32px
+}
+
+.active {
+  color: rgba(11, 68, 205, 1);
+}
+
+
